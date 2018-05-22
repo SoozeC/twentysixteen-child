@@ -4,3 +4,7 @@
  Description:  Child theme based on twentysixteen but with bonus features
  Template:     twentysixteen
 */
+
+.home .entry-content {
+	color:red;
+}
