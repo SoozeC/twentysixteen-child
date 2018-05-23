@@ -28,6 +28,11 @@
 			'separator'   => '<span class="screen-reader-text">, </span>',
 		) );
 		?>
+
+		<?php
+			if (get_field('phone_number')){  ?>
+				<h2> <?php the_field('phone_number')?> </h2>
+		<?php } ?>
 	</div><!-- .entry-content -->
 
 	<?php
@@ -41,5 +46,8 @@
 			'</span></footer><!-- .entry-footer -->'
 		);
 	?>
+
+
+
 
 </article><!-- #post-## -->
